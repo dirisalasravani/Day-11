@@ -1,0 +1,20 @@
+body {
+    margin: 1px;
+    padding: 1px;
+    
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    margin: 10px;
+}
+
+.image img {
+    max-width: 200px;
+    height: 200px;
+}
